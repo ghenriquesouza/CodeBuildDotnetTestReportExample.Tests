@@ -20,7 +20,7 @@ namespace CodeBuildDotnetTestReportExample.Tests
 
         [Theory]
         [InlineData("https://www.google.com")]
-        [InlineData("fffaaa")]
+        [InlineData("https://www.portoseguro.com.br/")]
         public void TestMalformedUri(string uri)
         {
             new Uri(uri);
